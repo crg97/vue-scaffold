@@ -18,7 +18,7 @@
 <script>
 import { mapGetters, mapActions } from 'vuex'
 export default {
-  name: 'Index',
+  name: 'Home',
   data() {
     return {
       activeIndex: '1'

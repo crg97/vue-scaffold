@@ -3,11 +3,11 @@
     <el-aside width="200px">
       <el-menu
         default-active="1">
-        <el-menu-item index="1">
+        <el-menu-item index="1" @click="$router.push('/mainOne')">
           <i class="el-icon-menu"/>
           <span slot="title">导航一</span>
         </el-menu-item>
-        <el-menu-item index="2">
+        <el-menu-item index="2" @click="$router.push('/mainOne/address')">
           <i class="el-icon-menu"/>
           <span slot="title">导航二</span>
         </el-menu-item>
@@ -24,8 +24,10 @@
 </template>
 
 <script>
+import Home from '@/views/Home'
 export default {
-  name: 'MainOne'
+  name: 'MainOne',
+  component: { Home }
 }
 </script>
 

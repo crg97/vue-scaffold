@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Index from './modules/index'
+import Home from './modules/home/home'
 
 Vue.use(VueRouter)
 
 const routes = [
-  Index
+  Home
 ]
 
 const router = new VueRouter({

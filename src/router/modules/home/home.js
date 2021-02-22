@@ -3,6 +3,7 @@ import MainTwo from './mainTwo'
 const home = {
   path: '/',
   name: 'home',
+  redirect: '/mainOne',
   component: () => import('@/views/Home'),
   children: [
     MainOne,
